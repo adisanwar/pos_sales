@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'view/home.dart';
+import 'components/side_menu.dart';
 
 void main() {
   runApp(const PosApp());
@@ -12,7 +12,7 @@ class PosApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      // MyApp();
+      home: const SideMenu(),
     );
   }
 }
