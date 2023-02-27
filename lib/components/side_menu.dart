@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cupertino_icons/cupertino_icons.dart';
 import 'info_card.dart';
+import 'package:rive/rive.dart';
 
 class SideMenu extends StatefulWidget {
   const SideMenu({super.key});
@@ -25,6 +26,13 @@ class _SideMenuState extends State<SideMenu> {
               name: "Jhon Doe",
               profesion: "Youtuber",
             ),
+            ListTile(
+              leading: SizedBox(
+                height: 34,
+                width: 34,
+                child: RiveAnimation.asset("assets/icon.riv"),
+              ),
+            )
           ],
         ),
       ),

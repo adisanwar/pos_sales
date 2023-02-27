@@ -38,6 +38,11 @@ dependencies:
   hive: ^2.2.3
   blur: ^3.1.0
   google_fonts: ^4.0.3
+  rive: ^0.10.2
+  flutter_native_splash: ^2.2.18
+flutter_native_splash:
+  color: "#1abc9c" #greendoff 
+  image: assets/Flutter.png
 
 dev_dependencies:
   flutter_test:
